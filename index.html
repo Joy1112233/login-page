@@ -8,7 +8,28 @@
      <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    
+    <div class="login-container">
+        <h1>Welcome</h1>
+        <form id="login-form">
+        <div>
+            <input type="number" id="phone-number" placeholder="Input Your Phone Number" required>
+        </div>
+        <div>
+            <input type="password" id="password" placeholder="Input Your Password" required>
+        </div>
+        <button type="submit">Login</button>
+        </form>
+        <p>Forgotten Password?</p>
+       <div class="create-button"> 
+         <button>Create New Account</button>
+
+       </div>
+       
+
+       <!-- error message -->
+        <p id="error"></p>
+        
+    </div>
     <script src="/script.js"></script>
 </body>
 </html>
